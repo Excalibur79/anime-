@@ -1,0 +1,188 @@
+.animeheadingcontainer
+{
+
+      text-align:center;
+      background-color:#F5EEF8  ;
+      padding:10px;
+      border-radius:30px;
+}
+.mainbackground
+{
+    background-color:#EBDEF0 ;
+    padding:40px;
+}
+
+
+.flexbox1
+{
+
+
+    text-align:center;
+    padding:6px;
+
+    margin:0 auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:bold;
+    font-size:200%;
+
+    color:#9B59B6 ;
+    display:flex;
+    justify-content:center;
+}
+.flexbox1 div
+{
+
+     box-shadow: 4px 4px 20px #A6ACAF   ;
+    border-radius:10px;
+    background-color:#EBDEF0;
+    padding:10px;
+
+}
+.pagelinks
+{
+
+    display:flex;
+    justify-content:flex-end;
+    padding:10px;
+}
+.pagelinks div
+{
+
+    margin:10px;
+     font-family: 'Josefin Sans', sans-serif;
+     font-size:120%;
+
+}
+a{
+text-decoration:none;
+color:#21618C;
+}
+.anime-content-container
+{
+    border-radius:20px;
+}
+.anime-content-container div
+{
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size:120%;
+    padding:20px;
+    color:black;
+}
+.flexbox2
+{
+    display:flex;
+    justify-content:center;
+
+
+}
+.flexbox2 img{
+
+display:flex;
+height:300px;
+width:270px;
+ box-shadow: 20px 20px 40px #A6ACAF  ;
+
+}
+.flexbox3
+{
+
+
+    display:flex;
+    width:740px;
+    margin:0 auto;
+
+}
+.flex{
+background-color:#D7BDE2  ;
+border-radius:40px;
+padding:20px;
+box-shadow: 20px 20px 40px #A6ACAF  ;
+}
+
+li{
+
+margin:10px;
+
+
+}
+#title
+{
+
+    font-family: 'Libre Franklin', sans-serif;
+    font-size:200%;
+}
+
+#morekimi
+{
+    display:none;
+}
+#morehello
+{
+    display:none;
+}
+#moreweather
+{
+    display:none;
+}
+#moremaquia
+{
+    display:none;
+}
+#morewolf
+{
+    display:none;
+}
+#moreblue
+{
+    display:none;
+}
+#voice
+{
+    display:none;
+}
+.footer
+{
+   
+    height:200px;
+    display:flex;
+    flex-direction:column;
+    background-color:#1C2833 ;
+}
+.footer div
+{
+
+    text-align:center;
+    margin:30px;
+    font-size:140%;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#E67E22
+;
+
+}
+
+@media(max-width:991px)
+{
+    .flexbox3
+    {
+        flex-direction:column;
+        width:500px;
+    }
+
+}
+@media(max-width:768px)
+{
+    iframe
+    {
+        width:80%;
+        height:80%;
+    }
+     .flexbox3
+    {
+        flex-direction:column;
+        width:286px;
+    }
+}
+
+
